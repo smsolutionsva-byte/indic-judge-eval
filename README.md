@@ -9,6 +9,10 @@ not from the judge.
 
 Every number below comes from run `full-20261107-132628` (config, prompt and outputs are in that folder).
 
+> **One human labeller.** All 190 human labels come from a single person (the author). That means there is
+> no human–human agreement figure yet, so the results compare the judge with one person, not with a measured
+> human ceiling. The labelling tool already supports a second labeller on an overlap set (see Method).
+
 ## Dataset
 
 | Language | Items | Source | License |
@@ -182,6 +186,17 @@ This is a ceiling for gating the run, not a measurement. It only applies to mode
 BharatCode price was available, so the guard treated the reported run as $0 and did not limit it. That run's
 measured usage is 587,086 tokens. Every response is cached in `data/cache/llm_cache.jsonl`, so reruns make no
 API calls.
+
+## Licence
+
+- **Code** (everything under `src/`, `tests/`, `dashboard/`, `configs/`, `prompts/` and the build files):
+  [MIT](LICENSE).
+- **Data** stays under its original licences, not MIT:
+  - The Hindi and Kannada items, and model answers derived from them, come from
+    [IndicQA](https://huggingface.co/datasets/ai4bharat/IndicQA) by AI4Bharat and are licensed **CC-BY-4.0**.
+  - The English items come from [SQuAD v1.1](https://huggingface.co/datasets/rajpurkar/squad) and are licensed **CC-BY-SA-4.0**.
+  - This covers `data/items.jsonl`, the cached responses in `data/cache/`, and the copies in `runs/`. Each item
+    records its source and licence.
 
 ## Tests
 
