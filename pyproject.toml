@@ -1,0 +1,22 @@
+[project]
+name = "indic-judge"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.1", "pyarrow>=14", "pydantic>=2.5", "pyyaml>=6", "anthropic>=0.40",
+  "httpx>=0.27", "numpy>=1.26", "huggingface_hub>=0.24",
+]
+[project.optional-dependencies]
+dash = ["streamlit>=1.36"]
+dev = ["pytest>=8", "ruff>=0.5", "scikit-learn>=1.4", "krippendorff>=0.6"]
+[project.scripts]
+indic-judge = "indic_judge.cli:main"
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.ruff]
+line-length = 100
+[tool.pytest.ini_options]
+testpaths = ["tests"]

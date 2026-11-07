@@ -1,0 +1,191 @@
+item_id,generator,judge_position,judge_in_tok,judge_out_tok,judge_latency_s,judge_cached,parse_ok,correctness,faithfulness,fluency,completeness,rationale
+en-161,qwen38,0,764,99,7.084,True,True,4.0,4.0,4.0,4.0,The answer exactly matches the passage and reference answer.
+hi-069,qwen38,1,1621,311,8.85351119999541,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the supported fact that 5000 soldiers were placed on guard.
+hi-067,qwen38,2,2363,66,5.00352169998223,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Dhanvantari incarnated as Kashi-raja Divodas, matching the reference with fluent, fully supported text."
+kn-088,qwen38,3,1434,491,10.593905699963216,False,True,4.0,4.0,4.0,4.0,"The answer correctly and concisely identifies Golconda as the old capital, matching the passage and reference."
+hi-055,qwen38,4,1962,61,7.948350699967705,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Malihabadi Dasheri mango, which matches the reference answer and is fully supported by the passage."
+en-175,qwen38,5,679,175,9.874,True,True,4.0,4.0,4.0,4.0,"The answer correctly and fully states that the capital was moved to Bukhara, matching the passage and reference."
+hi-056,qwen38,6,2054,60,6.253989399992861,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 17 September 1948, matching the passage and reference, with fluent Hindi."
+en-172,qwen38,7,571,64,9.029209000000264,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Turkey as the country where Genghis Khan's title is a popular name for male children, matching the passage exactly."
+hi-023,qwen38,8,1711,730,13.245,True,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the wife's name as supported by the passage.
+hi-020,qwen38,9,2237,67,7.453128100023605,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the location (16 km northwest of Srinagar) exactly as in the passage, is fluent, complete, and fully supported."
+hi-009,qwen38,10,1701,665,16.718889599957038,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that the temple was built in 12 blocks, matching the passage and reference."
+hi-039,qwen38,11,2010,63,4.910368199984077,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Ashtadhyayi was written by Panini, matching the reference and fully supported by the passage."
+en-170,qwen38,12,927,412,7.982541300007142,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully states the Mongolian name and its alternate renderings, with all details supported by the passage."
+kn-138,qwen38,13,1124,59,11.073325100005604,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 8 fresh fish sales societies, matching the passage and reference, and is fluent and complete."
+en-189,qwen38,14,635,67,4.823023200035095,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the 1960s as the decade of ABC's transition to color, matching the reference and fully supported by the passage."
+hi-032,qwen38,15,2162,78,5.633869299956132,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies कौशिरिव-कौशल as the Chandravanshi king who ruled 5000 years ago, fully supported by the passage."
+kn-156,qwen38,16,937,160,10.512227800034452,False,True,1.0,1.0,1.0,1.0,The candidate answer is empty and does not address the question.
+en-171,qwen38,17,615,61,12.225707699952181,False,True,4.0,4.0,4.0,4.0,"The answer directly and accurately states the passage's claim about reactive oxygen's role against pathogen attack, with no unsupported additions."
+kn-105,qwen38,18,1965,71,6.2026258000405505,False,True,1.0,4.0,4.0,1.0,"The passage indeed does not mention Gandhi's principles, so the answer is faithful and fluent, but it doesn't match the reference answer and fails to answer the question as expected."
+hi-048,qwen38,19,1693,3000,109.44206109998049,False,False,,,,,PARSE_ERROR: no JSON object in judge output: ''
+hi-010,qwen38,20,1848,73,9.213397099985741,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 'पच्चड़ी' as the Telugu term for pickles and chutneys, matching the reference and fully supported by the passage."
+kn-104,qwen38,21,1922,55,8.553791299986187,False,True,4.0,4.0,4.0,4.0,"The answer correctly states architecture and art as contributions, with supporting details fully drawn from the passage."
+en-166,qwen38,22,672,230,6.944662299996708,False,True,4.0,4.0,4.0,4.0,The answer correctly identifies Elton Rule and is fully supported by the passage.
+hi-012,qwen38,23,2115,69,11.385507399972994,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies धरणीधर as the ancient lake in Aligarh, is fully supported by the passage, and is fluent and complete."
+kn-109,qwen38,24,1471,216,10.971979800029658,False,True,4.0,4.0,4.0,4.0,The candidate answer directly and accurately states the passage's point that Muslim tradition prohibits excessive tomb decoration.
+hi-028,qwen38,25,2001,58,5.864749300002586,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 148, is fully supported by the passage, and is fluent and complete."
+kn-117,qwen38,26,1936,58,8.482096199993975,False,True,4.0,4.0,4.0,4.0,"The answer correctly states April to June as the hottest months, fully supported by the passage and fluently written."
+kn-091,qwen38,27,2433,69,7.150312100013252,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Raju Ramachandran as the person who said legal action could be taken against Modi, fully supported by the passage and fluently written."
+hi-031,qwen38,28,1954,49,8.741037000028882,False,True,1.0,1.0,1.0,1.0,"The candidate answer is empty, providing no response to the question."
+en-182,qwen38,29,594,170,4.314,True,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the time given in the passage.
+kn-090,qwen38,30,1826,512,12.002513999992516,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1,000 names, is fully supported by the passage, fluent in Kannada, and completely answers the question."
+hi-043,qwen38,31,2094,65,9.672910699970089,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Kol, a daitya king, defeated Kaushiriv, fully supported by the passage and fluently written."
+hi-068,qwen38,32,2024,65,7.819552999979351,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Hyderabad and is fully supported by the passage, though it adds 'financial and economic' qualifier which is faithful to the text."
+hi-078,qwen38,33,1517,560,10.51,True,True,4.0,4.0,4.0,4.0,The answer correctly identifies Madhya Pradesh and is fully supported by the passage.
+en-173,qwen38,34,561,56,10.418221300002187,False,True,4.0,4.0,4.0,4.0,"The answer correctly states four divisions of graduate research, matching the reference and fully supported by the passage."
+kn-137,qwen38,35,1149,568,12.348635800008196,False,True,4.0,4.0,4.0,4.0,The candidate correctly states the distance from Hampi and adds a supported location detail from the passage.
+hi-018,qwen38,36,2254,76,4.3338672000099905,False,True,4.0,4.0,4.0,4.0,"The passage states 10 people were actually involved, which the candidate correctly cites; the reference answer of five refers to those who escaped, but the candidate's answer is well-supported by the passage."
+kn-139,qwen38,37,1100,172,6.002,True,True,1.0,1.0,1.0,1.0,The candidate answer is empty and does not address the question.
+kn-115,qwen38,38,1297,61,5.09120740002254,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Zia-ur Rahman as the one who established private enterprises and newspapers, fully supported by the passage."
+kn-131,qwen38,39,1566,64,6.7990857000113465,False,True,3.0,4.0,4.0,4.0,"The answer correctly states rice as the main crop per the passage, though the reference answer oddly says wheat; the answer is faithful and fluent."
+hi-001,qwen38,40,2277,64,10.006712799950037,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that most of Sikkim is covered by Precambrian rocks, matching the reference and fully supported by the passage."
+kn-089,qwen38,41,1655,66,11.573142499953974,False,True,3.0,4.0,4.0,3.0,The year 2008 is correct but the specific date 2008-03-22 from the reference is missing.
+hi-038,qwen38,42,1427,343,10.636138000001665,False,True,4.0,4.0,4.0,4.0,The answer correctly states 1803 and is fully supported by the passage.
+kn-100,qwen38,43,1892,60,15.589048599998932,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Gokhale said this about the extremists, fully supported by the passage and fluently written."
+kn-133,qwen38,44,2156,67,11.511780100001488,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the period 980 to 1150 as given in the passage, fully addressing the question fluently and faithfully."
+en-162,qwen38,45,636,168,7.903988600010052,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully identifies congresses and presidents as stated in the passage.
+hi-076,qwen38,46,1521,734,17.170863799983636,False,True,4.0,4.0,3.0,4.0,"The answer gives the correct 13880 MW capacity as of 31 March 2015, fully supported by the passage, with only minor spelling awkwardness."
+kn-097,qwen38,47,1924,54,8.56108569999924,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference with all three regions and is fully supported by the passage.
+hi-057,qwen38,48,2247,62,7.257668000005651,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 4000-3500 years, fully supported by the passage and fluently written."
+kn-130,qwen38,49,1765,55,7.677007299964316,False,True,4.0,4.0,4.0,4.0,"The answer lists all vegetables and fruits exactly as stated in the passage, fully and fluently."
+hi-066,qwen38,50,2026,57,8.093061999999918,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1000 BCE as supported by the passage, is fluent and complete."
+hi-008,qwen38,51,1653,69,7.127838200016413,False,True,4.0,4.0,4.0,4.0,"The passage states NDA's first government was led by Atal Bihari Vajpayee, so the candidate is correct despite the reference answer being wrong."
+hi-006,qwen38,52,2018,66,7.726900300011039,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the 990-1210 CE period, is fully supported by the passage, and is fluent and complete."
+hi-075,qwen38,53,2245,65,9.23056319996249,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Ram Prasad Bismil as the HRA leader, is fully supported by the passage, and is fluent and complete."
+kn-150,qwen38,54,1443,569,38.984,True,True,4.0,4.0,4.0,4.0,"The answer correctly and fluently states the passage's description, including the reference fact."
+en-186,qwen38,55,731,270,6.547,True,True,4.0,4.0,4.0,4.0,The answer accurately and fully identifies the additional membranes stated in the passage.
+kn-142,qwen38,56,1715,50,6.582649599993601,False,True,4.0,4.0,4.0,4.0,The answer matches the reference exactly and is fully supported by the passage.
+en-179,qwen38,57,711,889,19.708020700025372,False,True,3.0,4.0,4.0,4.0,"The answer is fluent and fully supported by the passage, but it adds Alfred S. Brown in addition to the reference answer Charles F. Peck."
+kn-102,qwen38,58,2800,58,8.112003599992022,False,True,4.0,4.0,4.0,4.0,"The answer directly and accurately states Tagore's interest in science in his final years, fully matching the reference."
+kn-127,qwen38,59,2808,55,8.792426600004546,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 77% as supported by the passage, is fluent and complete."
+kn-099,qwen38,60,1473,55,5.739365399989765,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the plane crash and adds the accurate date, all supported by the passage."
+kn-112,qwen38,61,2162,80,9.477758000022732,False,True,4.0,4.0,4.0,4.0,"The candidate correctly identifies the Cosmic Ray Research Unit as the research unit Bhabha established at IISc Bangalore, which matches the passage; the reference answer appears garbled but the candidate's answer is faithful and complete."
+hi-011,qwen38,62,2336,87,8.618906899995636,False,True,1.0,4.0,4.0,1.0,"The passage states India's first satellite was Aryabhatta (launched 1975 with Soviet help), while Rohini-1 was the first satellite built in the country; the candidate conflates these and gives the wrong answer to the question."
+hi-046,qwen38,63,2061,59,11.074708100000862,False,True,4.0,4.0,4.0,4.0,The answer correctly identifies Pushyagupta as the builder of the dam and is fully supported by the passage.
+hi-074,qwen38,64,2086,60,8.62896780000301,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 8 lakh people were converted in Nagpur, fully supported by the passage and fluently written."
+hi-070,qwen38,65,1914,511,45.384,True,True,4.0,4.0,3.0,4.0,"The answer correctly states 1947 and is supported by the passage, with only minor spelling/grammar awkwardness."
+kn-132,qwen38,66,1302,740,14.861516700009815,False,True,4.0,4.0,3.0,4.0,"The answer correctly names two supported magazines and fully answers the question, with only minor Kannada awkwardness."
+en-168,qwen38,67,829,158,22.216,True,True,4.0,4.0,4.0,4.0,The candidate directly and accurately answers the question with the passage-supported phrase 'internal strife'.
+kn-119,qwen38,68,1101,62,6.077527599991299,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Gurudogmar as the major high-altitude lake, matching the reference and fully supported by the passage."
+kn-124,qwen38,69,1818,55,5.4662919999682344,False,True,4.0,4.0,4.0,4.0,"The answer correctly states gold, is fully supported by the passage, and is fluent and complete."
+en-174,qwen38,70,536,55,7.6037473999895155,False,True,4.0,4.0,4.0,4.0,"The answer correctly states seven sacks, fully supported by the passage, and is fluent and complete."
+kn-101,qwen38,71,1351,57,5.581348500039894,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Hindus mainly lived in Jammu, matching the reference and fully supported by the passage."
+kn-135,qwen38,72,2261,49,6.69468750001397,False,True,4.0,4.0,4.0,4.0,The answer matches the reference and is fully supported by the passage.
+kn-093,qwen38,73,1997,64,5.805902099993546,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the 1980 Moscow Olympics as her first Olympic competition, fully supported by the passage and fluently written."
+kn-154,qwen38,74,2410,63,5.576861799985636,False,True,1.0,4.0,4.0,1.0,"The passage doesn't mention ducks, but the reference answer says Narmada valley, so the candidate fails to give the expected answer."
+en-183,qwen38,75,689,236,14.546806999947876,False,True,4.0,4.0,4.0,4.0,The answer correctly identifies Begter and is fully supported by the passage.
+hi-013,qwen38,76,1894,63,5.579131700040307,False,True,3.0,3.0,4.0,4.0,"Answer is fluent and complete but drops the 'मुहम्मदी' feminine ending, making the name slightly off."
+kn-096,qwen38,77,1771,54,6.921186499996111,False,True,4.0,4.0,4.0,4.0,The answer correctly states the word represents the whole district and adds supported context from the passage.
+hi-052,qwen38,78,2056,62,7.904264500015415,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the death year 467 as given in the passage, is fully faithful, fluent, and complete."
+kn-108,qwen38,79,2013,57,7.294579499983229,False,True,4.0,4.0,4.0,4.0,The answer correctly states 1912 and is fully supported by the passage with fluent Kannada.
+en-164,qwen38,80,775,60,5.861648400023114,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the UMC as the moderate and tolerant denomination, fully supported by the passage and fluently written."
+kn-126,qwen38,81,1381,64,8.970490699983202,False,True,1.0,4.0,4.0,1.0,"The answer gives the oxygen percentage instead of the mineral proportion (<1%), so it is fluent and faithful to the passage but wrong and incomplete."
+kn-158,qwen38,82,1069,849,13.349,True,True,4.0,4.0,3.0,4.0,"The answer correctly and fully states that the flowers dazzle like a rainbow, supported by the passage, with only minor nonstandard wording."
+kn-122,qwen38,83,2622,65,6.3817220000200905,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Sri Krishna taught the Bhagavad Gita to Arjuna, matching the reference and fully supported by the passage."
+hi-049,qwen38,84,1739,524,10.269556500017643,False,True,4.0,4.0,4.0,4.0,The answer correctly states the 5.2% contribution from the passage and fully answers the question.
+en-187,qwen38,85,675,63,6.196555399976205,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the Lower Rhine as the section with the bulk of factories, matching the reference and fully supported by the passage."
+hi-077,qwen38,86,1529,435,22.585,True,True,4.0,4.0,3.0,4.0,"The answer correctly and fully states that the submarine trench is part of the Bengal fan, with only minor code-mixing."
+kn-098,qwen38,87,1782,56,6.482467299967539,False,True,4.0,4.0,4.0,4.0,"The answer correctly states winter begins mid-November, fully supported by the passage and fluently written."
+hi-047,qwen38,88,2153,57,5.369047500018496,False,True,4.0,4.0,3.0,4.0,The answer correctly identifies the builder with minor spelling/grammatical errors but is otherwise accurate and complete.
+en-177,qwen38,89,664,183,6.039641599985771,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully identifies leukocytes/white blood cells as stated in the passage.
+hi-054,qwen38,90,1970,51,4.273710300039966,False,True,4.0,4.0,4.0,4.0,"The answer exactly matches the reference with fully supported, fluent, complete response."
+kn-159,qwen38,91,1443,64,6.431387100019492,False,True,4.0,4.0,4.0,4.0,"The answer correctly states residents migrated to Gulmarg when temperatures rose in Srinagar, fully supported by the passage and fluently written."
+kn-148,qwen38,92,1306,577,11.280623400001787,False,True,4.0,4.0,4.0,4.0,"The candidate correctly and fully identifies the Tamil periodical Kalki as the publication, matching the passage and reference answer."
+kn-086,qwen38,93,1415,62,5.2613995999563485,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1449 as the birth year, fully supported by the passage, and is fluent and complete."
+hi-060,qwen38,94,1558,172,5.873983800003771,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the passage-supported meaning of Gandhi in Gujarati.
+en-185,qwen38,95,796,217,4.668,True,True,4.0,4.0,4.0,4.0,"The answer matches the reference, adds supported examples, and is fluent and complete."
+hi-014,qwen38,96,2143,66,6.941839599981904,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Mahatma Gandhi as the initiator of the Quit India Movement, is fully supported by the passage, and is fluent and complete."
+hi-072,qwen38,97,2157,57,7.147411099984311,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference with all three names correctly stated in fluent Hindi fully supported by the passage.
+hi-064,qwen38,98,1639,300,7.811575900006574,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully identifies Asaf Jah I as the recipient of the title, matching the passage and reference."
+hi-022,qwen38,99,1634,59,6.823616899957415,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1526, is fully supported by the passage, and is fluent and complete."
+kn-123,qwen38,100,2274,57,6.566486700030509,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Draupadi as the wife of the Pandavas, matching the reference exactly."
+en-180,qwen38,101,670,143,4.733647900051437,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully identifies Coldplay as the headliner, matching the passage and reference answer."
+kn-152,qwen38,102,1320,66,6.875383000005968,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the Vishayapati managed the Vishaya with the help of the Adhikarana, matching the reference and passage."
+hi-051,qwen38,103,1847,679,19.800127600028645,False,True,4.0,4.0,3.0,4.0,"The answer correctly names Charaka, Sushruta, and Vagbhata as stated in the passage, with only minor awkwardness in phrasing."
+hi-026,qwen38,104,2199,50,6.5631824000156485,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+kn-092,qwen38,105,1079,1410,20.506532499974128,False,True,4.0,4.0,3.0,4.0,"The answer correctly and fully states the post-monsoon feature from the passage, with only minor awkwardness in phrasing."
+hi-073,qwen38,106,1939,52,9.127635099983308,False,True,4.0,4.0,4.0,4.0,The answer correctly identifies the Hindu Code Bill and is fully supported by the passage.
+hi-033,qwen38,107,1687,214,5.247,True,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the village name from the passage in fluent Hindi.
+kn-146,qwen38,108,2055,67,9.806822700018529,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the construction years 1718-1734 as given in the passage, is faithful, fluent, and complete."
+en-188,qwen38,109,601,60,10.407154099957552,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies necessity-based entrepreneurship as being motivated by survival needs, matching the reference and fully supported by the passage."
+en-165,qwen38,110,648,63,7.96856619999744,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1971, matches the reference, is fully supported by the passage, and is fluent and complete."
+kn-144,qwen38,111,1640,59,7.304703000001609,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Chola dominance in China and Southeast Asia, fully supported by the passage and fluently written."
+hi-062,qwen38,112,1925,57,6.310491099953651,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the alternate name as stated in the passage, is faithful, fluent, and complete."
+en-160,qwen38,113,553,50,5.147918500006199,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+hi-019,qwen38,114,2084,50,5.576355999975931,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+kn-128,qwen38,115,1126,1544,24.32119970000349,False,True,3.0,4.0,4.0,3.0,"The answer includes the reference direction (northeast) and is supported by the passage, but it frames it as winter and adds north, making it only partly aligned with the monsoon-focused question."
+kn-121,qwen38,116,1443,50,4.988798399979714,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+hi-053,qwen38,117,1958,57,6.293558800010942,False,True,3.0,4.0,4.0,3.0,The year 1556 is correct but the specific date (14 February) is missing.
+hi-025,qwen38,118,1927,280,10.266850799962413,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that about 30 percent of Uttar Pradesh's irrigated land is irrigated by canals, matching the passage and reference."
+en-169,qwen38,119,669,56,6.160723999957554,False,True,4.0,4.0,4.0,4.0,"The answer correctly and faithfully states Henry Cole as the first director, matching the reference in fluent English."
+en-176,qwen38,120,592,69,5.82829189999029,False,True,1.0,1.0,4.0,4.0,"The passage lists Marco Polo and Mission to the Unknown as separate episodes, so the answer misidentifies the name and invents a claim not supported by the passage."
+hi-016,qwen38,121,2342,50,6.616251799976453,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+hi-059,qwen38,122,1833,362,9.468,True,True,4.0,4.0,4.0,4.0,"The answer correctly and fully states that the male peacock invites the female by showing food, matching the passage."
+en-184,qwen38,123,650,56,8.981251200020779,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies cotton spinning as the example, fully supported by the passage and fluently written."
+kn-113,qwen38,124,973,365,7.914,True,True,4.0,4.0,4.0,4.0,The candidate correctly and fully lists the cities named in the passage with natural Kannada phrasing.
+kn-120,qwen38,125,1171,3000,42.9917443000013,False,False,,,,,PARSE_ERROR: no JSON object in judge output: ''
+hi-042,qwen38,126,1910,425,8.392,True,True,4.0,4.0,3.0,4.0,The answer gives the exact supported date but has minor spelling and orthographic errors.
+hi-030,qwen38,127,2347,64,11.088428499992006,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Rohideshwar fort as the first captured fort, is fully supported by the passage, and is fluent and complete."
+kn-095,qwen38,128,1526,51,11.522487999987788,False,True,4.0,4.0,4.0,4.0,"The answer matches the reference exactly and is fluent, faithful, and complete."
+kn-147,qwen38,129,1704,68,16.16959649999626,False,True,4.0,4.0,4.0,4.0,"The candidate correctly states the closest distance from Earth to Mars as 66.6 crore km, matching the passage, though the reference answer appears garbled."
+hi-071,qwen38,130,1660,774,20.720251200022176,False,True,4.0,4.0,3.0,4.0,"The answer correctly and fully states that Ambedkar gave Buddhist initiation in Chandrapur, with only minor spelling/orthographic awkwardness."
+hi-041,qwen38,131,1977,63,10.028509600029793,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1930, matching the reference, is fully supported by the passage, and is fluent and complete."
+kn-118,qwen38,132,2095,59,11.135585200041533,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1921, is fully supported by the passage, and is fluent and complete."
+kn-087,qwen38,133,1425,58,14.359207700006664,False,True,4.0,4.0,4.0,4.0,"The answer correctly states mid-May as the monsoon start, fully supported by the passage and fluently written."
+hi-065,qwen38,134,1405,260,13.118570499995258,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the passage-supported year 1688 in fluent Hindi.
+hi-034,qwen38,135,2176,59,11.418456399987917,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1643, is fully supported by the passage, and is fluent and complete."
+kn-129,qwen38,136,1656,56,10.23197760002222,False,True,4.0,4.0,4.0,4.0,"The answer matches the reference and is fully supported by the passage, written fluently in Kannada."
+kn-103,qwen38,137,1286,1029,42.111,True,True,3.0,4.0,3.0,3.0,"The answer identifies Vaishya and is supported by the passage, but it is slightly indirect and has minor language awkwardness."
+kn-116,qwen38,138,1338,1126,21.929299500014167,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the passage's 25-meter height and is supported, fluent, and complete."
+hi-021,qwen38,139,1930,61,13.128457399958279,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Shivaji sent the peace proposal to the Mughals, matching the reference and supported by the passage."
+kn-143,qwen38,140,1445,437,26.307823800016195,False,True,4.0,4.0,4.0,4.0,"The candidate correctly identifies Valluvar's Thirukkural as the major contribution, fully supported by the passage and complete."
+hi-015,qwen38,141,1856,62,16.77987069997471,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies PM Nehru as a supporter of the Hindu Code Bill, matching the reference and fully supported by the passage."
+kn-107,qwen38,142,1066,388,20.58085889997892,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully states that more than 200,000 tourists are from abroad, matching the passage and reference."
+kn-083,qwen38,143,1344,59,15.643492100003641,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Vaidika dharma and is fully supported by the passage with natural, complete phrasing."
+kn-082,qwen38,144,1627,620,22.18585280003026,False,True,4.0,4.0,4.0,4.0,The candidate correctly identifies the work named in the passage and fully answers the question in fluent Kannada.
+hi-004,qwen38,145,2035,64,15.146669200039469,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1,50,000 soldiers under Shaista Khan captured the forts, fully supported by the passage."
+kn-111,qwen38,146,1483,1331,28.641407800023444,False,True,4.0,4.0,4.0,3.0,It correctly gives the 400-foot height from the passage but does not explicitly mention the temple asked about.
+kn-084,qwen38,147,1442,64,15.007892100024037,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the alternate name Pampapati Devalaya, is fully supported by the passage, and is fluent and complete."
+kn-149,qwen38,148,939,226,11.304873800021596,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully states the establishment year in natural Kannada supported by the passage.
+hi-058,qwen38,149,1679,877,33.99625730002299,False,True,4.0,4.0,3.0,4.0,"The answer correctly identifies Rabindranath Tagore as the main source for the title and adds a supported alternative, though the Hindi is slightly awkward."
+hi-000,qwen38,150,2354,58,13.485651499999221,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Rudki as the city, fully supported by the passage, and is fluent and complete."
+hi-050,qwen38,151,1714,53,15.833604599989485,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage in fluent Hindi.
+kn-141,qwen38,152,1976,72,11.465532100002747,False,True,3.0,4.0,4.0,2.0,"The passage does mention Shah Jahan built major mosques in Lahore, so the candidate's claim of no information is partially wrong, though the specific Badshahi Mosque isn't named."
+hi-063,qwen38,153,1654,278,16.96217399998568,False,True,4.0,4.0,4.0,4.0,The answer correctly and fully identifies Ambedkar as the person who held that view.
+hi-079,qwen38,154,1836,60,7.212044999992941,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Bairam Khan as the expelled guardian, directly supported by the passage, and is fluent and complete."
+kn-114,qwen38,155,1849,62,6.85606540000299,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies St. Peter's Church as the church the walk passes, fully supported by the passage and fluently written."
+kn-110,qwen38,156,1189,68,7.302273500012234,False,True,4.0,4.0,4.0,4.0,"The answer correctly states the average literacy rate of 81.9% as given in the passage, is faithful, fluent, and fully addresses the question."
+kn-094,qwen38,157,1897,62,8.279820600000676,False,True,4.0,4.0,4.0,4.0,The answer includes the reference fact (Hampi models) and lists all other contents accurately from the passage in fluent Kannada.
+kn-153,qwen38,158,1115,258,7.670494599966332,False,True,4.0,4.0,4.0,4.0,The candidate correctly and fully states the two titles from the passage in fluent Kannada.
+hi-061,qwen38,159,2006,53,5.8528170000063255,False,True,4.0,4.0,4.0,4.0,The answer correctly states 1898 and is fully supported by the passage.
+hi-035,qwen38,160,2018,62,5.96792500000447,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 3000 BCE as the period of connection, fully supported by the passage and fluently written."
+hi-005,qwen38,161,2008,62,7.3831504000118,False,True,4.0,4.0,4.0,4.0,"The answer directly and accurately states that Magadha was the most powerful kingdom, matching the reference and fully supported by the passage."
+kn-081,qwen38,162,1285,346,9.704149500001222,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully identifies the Badami Chalukyas as the builders of the Aihole temples, matching the passage."
+kn-085,qwen38,163,1218,607,12.254664200008847,False,True,4.0,4.0,3.0,4.0,"The answer correctly and fully identifies Krishnadevaraya's reign as supported by the passage, with only minor spelling awkwardness."
+hi-037,qwen38,164,1673,64,8.12525059998734,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1964 as the year of Nehru's death, fully supported by the passage and fluently written."
+en-181,qwen38,165,668,50,5.707080600026529,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+kn-151,qwen38,166,1766,65,11.131444500002544,False,True,4.0,4.0,4.0,4.0,"The answer correctly and faithfully states Gopal Krishna Gokhale was prominent in political lectures, matching the reference with fluent, complete phrasing."
+hi-040,qwen38,167,1566,317,32.844945800025016,False,True,4.0,4.0,4.0,4.0,The candidate correctly and fully states the alternate name supported by the passage.
+en-163,qwen38,168,598,62,4.689572100003716,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies the Seine as the river near the Center in Paris, matching the reference and fully supported by the passage."
+kn-125,qwen38,169,1247,431,12.106844900001306,False,True,4.0,4.0,4.0,4.0,The answer directly states the correct technology from the passage and fully answers the question.
+hi-002,qwen38,170,1648,57,10.374260200012941,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Bangalore as India's Silicon Valley, fully supported by the passage and fluently written."
+kn-080,qwen38,171,1550,59,10.540147199993953,False,True,4.0,4.0,4.0,4.0,"The answer correctly states 1907, is fully supported by the passage, and is fluent and complete."
+en-167,qwen38,172,656,161,4.532,True,True,4.0,4.0,4.0,4.0,The candidate answer directly matches the reference and is fully supported by the passage.
+hi-045,qwen38,173,1735,351,16.285142799955793,False,True,4.0,4.0,4.0,4.0,"The answer correctly and fully identifies the term as Daulatkhana, matching the passage and reference."
+hi-024,qwen38,174,2009,50,13.678699299984146,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+kn-106,qwen38,175,1911,58,10.915387799963355,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Shaivite deity sculptures are on the left side, matching the reference and passage."
+en-178,qwen38,176,607,49,9.51406820002012,False,True,4.0,4.0,4.0,4.0,The answer correctly identifies both fields exactly as stated in the passage.
+hi-003,qwen38,177,1493,714,17.715183200023603,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that Karnataka has 29 districts, matching the passage and reference answer."
+kn-155,qwen38,178,1250,50,7.520837999996729,False,True,4.0,4.0,4.0,4.0,The answer exactly matches the reference and is fully supported by the passage.
+kn-134,qwen38,179,1129,56,8.924966700025834,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Dhaka as the capital, fully supported by the passage and fluently written."
+hi-027,qwen38,180,2091,80,9.965410600008909,False,True,4.0,4.0,4.0,4.0,"The answer correctly states it is known as पुरानी दिल्ली (or पुराना शहर), matching the reference and fully supported by the passage."
+hi-007,qwen38,181,1602,710,17.481896999990568,False,True,4.0,4.0,3.0,4.0,"The answer correctly identifies Humayun as Akbar's father and is supported by the passage, though the phrasing is slightly awkward."
+kn-140,qwen38,182,1211,81,10.117665399971884,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies H. H. ಉಷಾದೇವಿ ಹೋಳ್ಕರ as the current Maharani of Indore, fully supported by the passage."
+hi-029,qwen38,183,1664,68,10.379513700027019,False,True,4.0,4.0,1.0,4.0,"The answer gives the correct name (Lalita Shastri) and is supported by the passage, but the text is heavily garbled with spelling errors."
+kn-136,qwen38,184,1468,2290,41.75380280002719,False,True,3.0,3.0,3.0,4.0,The answer includes the reference sites but frames them as cities of the Indus Valley civilization and adds a mildly unsupported 'main' characterization.
+hi-017,qwen38,185,2078,61,10.961060700006783,False,True,4.0,4.0,4.0,4.0,"The answer correctly states that a group of symptoms is called 'roga', matching the reference and fully supported by the passage."
+kn-157,qwen38,186,1549,593,12.618,True,True,1.0,4.0,3.0,1.0,"The answer does not provide the requested fact, though its claim that the passage does not mention the name is supported."
+kn-145,qwen38,187,1387,62,13.96978250000393,False,True,4.0,4.0,4.0,4.0,"The answer correctly identifies Titagarh and Bhatpara as the industrial centers, fully supported by the passage and fluently written."
+hi-044,qwen38,188,1917,497,11.216294899990316,False,True,4.0,4.0,3.0,4.0,"The answer correctly states 2019 and is supported by the passage, though it uses some English loanwords."
+hi-036,qwen38,189,1989,58,6.229136499983724,False,True,4.0,4.0,4.0,4.0,"The answer correctly states Shaista Khan was appointed, fully supported by the passage, and is fluent and complete."

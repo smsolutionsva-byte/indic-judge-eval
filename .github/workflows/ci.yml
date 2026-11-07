@@ -1,0 +1,25 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env: {PYTHONUTF8: "1"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -e ".[dash,dev]"
+      - run: ruff check src tests dashboard
+      - run: pytest -q
+      - name: Regression eval on cached responses (no API key, no network calls)
+        run: |
+          if [ -s data/cache/llm_cache.jsonl ]; then
+            python -m indic_judge.cli run configs/sample20.yaml --offline
+          else
+            echo "No committed cache yet; skipping regression eval."
+          fi
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t indic-judge-eval .
