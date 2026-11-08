@@ -1,26 +1,66 @@
 # Indic LLM-Judge Agreement Eval
 
-**Question:** can an LLM judge be trusted to grade Hindi and Kannada answers the way humans do?
+[![ci](https://github.com/smsolutionsva-byte/indic-judge-eval/actions/workflows/ci.yml/badge.svg)](https://github.com/smsolutionsva-byte/indic-judge-eval/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Short answer:** mostly yes on correctness, faithfulness and completeness, but not for fluency.
-That held for all 190 answers, which one human labeled against the judge. Quadratic-weighted κ was 0.83 overall
-and 0.68 for fluency. Many of the largest disagreements came from errors in the dataset's own reference answers,
-not from the judge.
+**Can an LLM judge grade Hindi and Kannada answers like a human?** This repo tests that on 190 answers
+(Hindi, Kannada, and an English control). Each answer was scored on a 4-criterion rubric by both an LLM judge
+and a human.
 
-Every number below comes from run [`runs/full-20261107-132628/`](runs/full-20261107-132628/):
+### Key results
 
-- [`config.yaml`](runs/full-20261107-132628/config.yaml) and [`judge_v1.md`](runs/full-20261107-132628/judge_v1.md): the exact config and judge prompt.
-- [`answers.csv`](runs/full-20261107-132628/answers.csv) and [`judgments.csv`](runs/full-20261107-132628/judgments.csv): every answer and judge score, with tokens and latency.
-- [`agreement.csv`](runs/full-20261107-132628/agreement.csv): every agreement number in the tables below.
-- [`summary.json`](runs/full-20261107-132628/summary.json): bias checks, latency and confusion matrices.
-- [`worst_disagreements.csv`](runs/full-20261107-132628/worst_disagreements.csv): the ten largest judge–human gaps.
-- Human labels: [`labels/human_a.jsonl`](labels/human_a.jsonl).
+- **Overall agreement is strong:** quadratic-weighted κ (QWK) **0.83** [95% CI 0.73, 0.89] between the judge and the human.
+- **Fluency is the weakest criterion:** QWK **0.68** [0.36, 0.81]. Completeness is 0.95, faithfulness 0.92 and correctness 0.77.
+- **Some disagreements are dataset errors:** 4 of the 10 largest disagreements are on items whose *reference answer
+  or question* doesn't fit the passage (see [failure cases](#failure-cases)).
 
-To recompute, run `python -m indic_judge.cli analyze runs/full-20261107-132628`.
+<p>
+  <img src="docs/dashboard-overview.png" alt="Dashboard: agreement overall and per language" width="49%">
+  <img src="docs/agreement-by-criterion.png" alt="Dashboard: QWK per language × criterion; fluency is lowest" width="49%">
+</p>
 
-> **One human labeller.** All 190 human labels come from a single person (the author). That means there is
-> no human–human agreement figure yet, so the results compare the judge with one person, not with a measured
-> human ceiling. The labelling tool already supports a second labeller on an overlap set (see Method).
+> **Limitations, up front:**
+> - **One human labeller:** all 190 labels come from the author, so there's no human–human agreement figure yet.
+> - **English control is small:** n = 30 items, so its CIs span roughly 0 to 1.
+> - **Pairwise position-bias test not run:** it needs a second generator.
+> - **Self-judging:** the same model generated and judged every answer.
+>
+> Details are in [Limitations](#limitations).
+
+### 2-minute tour for reviewers
+
+1. **Run folder:** [`runs/full-20261107-132628/`](runs/full-20261107-132628/) holds the exact config, judge prompt,
+   every answer and every judgment.
+2. **Every agreement number:** [`agreement.csv`](runs/full-20261107-132628/agreement.csv) covers κ, QWK and
+   Krippendorff's α with CIs, by language and criterion.
+3. **Biggest judge–human gaps:** [`worst_disagreements.csv`](runs/full-20261107-132628/worst_disagreements.csv)
+   has the full text of each.
+4. **The rubric:** [`prompts/rubric.md`](prompts/rubric.md) is the same rubric text the judge and the human used.
+5. **Failure cases:** [Failure cases](#failure-cases) has five worked examples with the actual text, including
+   wrong reference answers.
+
+To recompute the run, use `python -m indic_judge.cli analyze runs/full-20261107-132628`.
+Human labels are in [`labels/human_a.jsonl`](labels/human_a.jsonl).
+
+### How it works
+
+```mermaid
+flowchart LR
+    A["Dataset<br/>IndicQA hi/kn + SQuAD en<br/>190 items"] --> B["Generator<br/>BharatCode qwen-3.8-27b"]
+    B --> C["LLM judge<br/>same model · rubric<br/>pydantic-validated JSON"]
+    B --> D["Blind human labels<br/>same rubric, judge hidden"]
+    C --> E["Agreement metrics<br/>κ · QWK · Krippendorff α<br/>bootstrap CIs"]
+    D --> E
+    E --> F["Bias checks<br/>length · judging order"]
+```
+
+**Built with [BharatCode](BharatCode.txt):** answers and judgments use `qwen-3.8-27b` through the BharatCode API.
+
+<p align="center">
+  <img src="docs/confusion-matrix.png" alt="Confusion matrix, Hindi fluency: judge vs human" width="49%">
+  <img src="docs/failure-case.png" alt="Failure case hi-018: reference says five, passage says ten" width="49%">
+</p>
+<p align="center"><sub>Left: Hindi fluency confusion matrix (judge rows, human columns). Right: failure case <code>hi-018</code>, where the reference answer contradicts the passage.</sub></p>
 
 ## Dataset
 
