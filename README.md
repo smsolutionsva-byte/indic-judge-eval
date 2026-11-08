@@ -158,6 +158,8 @@ because it needs two generators and only one was available.
 
 ## Failure cases
 
+Reported to AI4Bharat: [IndicQA discussion #4](https://huggingface.co/datasets/ai4bharat/IndicQA/discussions/4#6aefcbaeb704963a4304198b)
+
 Each case shows the actual text and scores in the order correctness / faithfulness / fluency / completeness.
 
 **1. A wrong reference answer: the judge sided with the passage, the human with the reference (`hi-018`).**
