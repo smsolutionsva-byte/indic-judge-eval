@@ -7,7 +7,16 @@ That held for all 190 answers, which one human labeled against the judge. Quadra
 and 0.68 for fluency. Many of the largest disagreements came from errors in the dataset's own reference answers,
 not from the judge.
 
-Every number below comes from run `full-20261107-132628` (config, prompt and outputs are in that folder).
+Every number below comes from run [`runs/full-20261107-132628/`](runs/full-20261107-132628/):
+
+- [`config.yaml`](runs/full-20261107-132628/config.yaml) and [`judge_v1.md`](runs/full-20261107-132628/judge_v1.md): the exact config and judge prompt.
+- [`answers.csv`](runs/full-20261107-132628/answers.csv) and [`judgments.csv`](runs/full-20261107-132628/judgments.csv): every answer and judge score, with tokens and latency.
+- [`agreement.csv`](runs/full-20261107-132628/agreement.csv): every agreement number in the tables below.
+- [`summary.json`](runs/full-20261107-132628/summary.json): bias checks, latency and confusion matrices.
+- [`worst_disagreements.csv`](runs/full-20261107-132628/worst_disagreements.csv): the ten largest judge–human gaps.
+- Human labels: [`labels/human_a.jsonl`](labels/human_a.jsonl).
+
+To recompute, run `python -m indic_judge.cli analyze runs/full-20261107-132628`.
 
 > **One human labeller.** All 190 human labels come from a single person (the author). That means there is
 > no human–human agreement figure yet, so the results compare the judge with one person, not with a measured
